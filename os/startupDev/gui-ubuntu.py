@@ -14,10 +14,11 @@ class Example(Frame):
         Frame.__init__(self, parent)
 
         self.parent = parent
-        self.quote = "I was supposed to be a cool quote . But then internet abandoned me !"
-        self.author = "Aditya"
-        self.initUI()
-        # self.getQuote()
+#         self.quote = "I was supposed to be a cool quote . But then internet abandoned me !"
+#         self.author = "Aditya"
+          self.getQuote()    
+          self.initUI()
+        
 
     def initUI(self):
 
